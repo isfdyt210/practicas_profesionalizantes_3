@@ -13,7 +13,7 @@ layout: default
         <span class="post-meta">{{ post.date | date: "%Y/%m/%d " }}</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.url +'-'+ site.baseurl }}</a>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.url + "hola" }}</a>
         </h2>
       </li>
       {% endif %}
