@@ -48,6 +48,7 @@ sass:
 exclude:
    - lib/*md
    - plugin/*md
+   - css/*md
 
 #   - .sass-cache/
 #   - .jekyll-cache/
