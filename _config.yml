@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Materia correspondiente al tercer año de la carrera de Tecnico en Analisis
   de Sistemas.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://isfdyt210.github.io/practicas_profesionalizantes_3/"
+url: "https://isfdyt210.github.io/practicas_profesionalizantes_3"
 github_username: ""
 
 # Build settings
