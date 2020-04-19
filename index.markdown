@@ -42,7 +42,8 @@ layout: default
     {% for ppt in ppt_files %}
       <li>
         <h2>
-          <a class="post-link" href="{{ ppt.path | prepend: site.baseurl }}">{{ ppt.basename }}</a>
+          <a class="post-link" href="{{ ppt.path | prepend: site.baseurl }}">
+          {{ ppt.basename | replace:'_',' ' }} </a>
         </h2>
       </li>
     {% endfor %}
