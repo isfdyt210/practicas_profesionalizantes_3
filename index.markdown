@@ -43,7 +43,8 @@ layout: default
       <li>
         <h2>
           <a class="post-link" href="{{ ppt.path | prepend: site.baseurl }}">
-          {{ ppt.basename | replace:'_',' ' }} </a>
+            {{ ppt.basename | replace:'_',' ' | capitalize }}
+          </a>
         </h2>
       </li>
     {% endfor %}
