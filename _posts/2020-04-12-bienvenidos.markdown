@@ -18,9 +18,12 @@ presencial, ni que siga siendo a distancia hasta el final del cuatrimestre.
 La materia se divide en clases teóricas, clases prácticas y clases de
 laboratorio.
 
-Como regla general, el material expositivo de las clases será grabado en
-diferido (no en vivo) y estará disponible en video en la sección "Clases" de
+Como regla general, el material de las clases será grabado en diferido
+(no en vivo) y estará disponible en video en la sección "Clases" de
 esta página. Cualquier excepción a esta regla se informará con anticipación.
+
+Cada clase tendrá su respectiva presentación a menos que se aclare lo contrario.
+Por ejemplo la clase 01 tendrá la presentación 01 (ya publicadas).
 
 Dado que es la primera vez que la mayoría de les docentes dicta cursos a
 distancia, solicitamos ser comprensives con todo tipo de falencias que las
