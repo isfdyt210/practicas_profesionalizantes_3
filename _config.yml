@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Practicas Profesionalizantes 3
+title: "Practicas Profesionalizantes 3"
 eva: "https://isfdyt210-bue.infd.edu.ar/aula/index.cgi?id_curso=335"
 description: >- # this means to ignore newlines until "baseurl:"
   Materia correspondiente al tercer año de la carrera de Tecnico en Analisis
@@ -45,11 +45,7 @@ sass:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-exclude:
-   - lib/*md
-   - plugin/*md
-   - css/*md
-
+# exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
