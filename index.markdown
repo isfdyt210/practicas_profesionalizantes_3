@@ -43,7 +43,22 @@ layout: default
       <li>
         <h2>
           <a class="post-link" href="{{ ppt.path | prepend: site.baseurl }}">
-            {{ ppt.basename | replace:'_',' ' | capitalize }}
+            {{ ppt.basename | replace:'.',' ' | capitalize }}
+          </a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h1 class="page-heading">Practicas</h1>
+
+  <ul class="post-list">
+    {% assign exe_files = site.static_files | where: "exercise", true %}
+    {% for exe in exe_files %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ exe.path | prepend: site.baseurl }}">
+            {{ exe.basename | replace:'.',' ' | capitalize }}
           </a>
         </h2>
       </li>

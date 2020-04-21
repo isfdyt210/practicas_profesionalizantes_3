@@ -66,3 +66,7 @@ defaults:
       path: "assets/ppt"
     values:
       presentation: true
+  - scope:
+      path: "assets/exercises"
+    values:
+      exercise: true
