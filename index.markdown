@@ -50,6 +50,17 @@ layout: default
     {% endfor %}
   </ul>
 
+  <h1 class="page-heading">Explicaciones Teóricas</h1>
+  <ul class="post-list">
+    {% for teory in site.data.teories %}
+      <li>
+        <a class="post-link" href="{{ teory.url }}">
+          {{ teory.name }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+
   <h1 class="page-heading">Practicas</h1>
 
   <ul class="post-list">
